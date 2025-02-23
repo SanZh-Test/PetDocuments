@@ -1,0 +1,122 @@
+body{
+    margin: 0;
+    background-color: #A9BEB9;
+    font-family: "Lora", serif;
+}
+.header{
+   min-height: 100px;
+   background-color: #F3E6DF;
+   box-shadow: 0px 20px 40px gray;
+   position: relative;
+   display: flex;
+}
+
+.logo_img{
+    padding-left: 40px;
+    width: 75px;
+    height: 75px;
+}
+
+.logo_title{
+    margin: auto 0;
+    padding-left: 20px;
+    font-size: 40px;
+    font-family: "Parisienne", serif;
+}
+
+.logo_container{
+    display: flex;
+    max-width: 532px;
+    min-height: 100px;
+}
+
+.navigation_bar{
+    margin: auto 0;
+    width: 100%;
+    justify-content: flex-end;
+    padding-right: 20px;
+    display: flex;
+    gap: 20px
+}
+
+a{
+    margin: auto;
+    font-size: 24px;
+    font-weight: 400;
+    color: #000000;
+    text-decoration: none;
+}
+
+h3{
+    margin: auto 0;
+    width: 220px;
+    height: 75px;
+    border-radius: 40px;
+    text-align: center;
+    background-color: #F3E6DF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 1.0s;
+
+}
+
+h3:hover{
+    background-color: #E8C8C2;
+}
+
+h3.active {
+    background-color: #E8C8C2;
+}
+
+.content{
+    margin: 0px 370px 0px;
+    min-width: 700px;
+    height: 900px;
+    background-color: #F3E6DF;
+    text-align: center;
+}
+
+.home_title{
+    margin: 0 auto;
+    padding-top: 78px;
+    max-width: 532px;
+    max-height: 132px;
+    font-size: 38px;
+    width: 100%;
+
+}
+
+.home_text{
+    margin: 0 auto;
+    padding-top: 60px;
+    max-width: 500px;
+    font-size: 16px;
+}
+
+.home_button{
+    padding-top: 60px;
+}
+
+.button{
+    margin: 0 auto;
+    width: 240px;
+    height: 75px;
+    border-radius: 40px;
+    font-size: 20px;
+    text-align: center;
+    border: none;
+    background-color: #E8C8C2;
+    padding: 0px 0px;
+    cursor: pointer;
+    transition: background-color 1.0s;
+    box-shadow: 0px 15px 20px gray;
+}
+
+.button:hover{
+    background-color: #E3AFA6;
+}
+
+h1{
+    margin: 0 auto;
+}
