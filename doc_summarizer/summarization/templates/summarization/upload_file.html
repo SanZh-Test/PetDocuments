@@ -1,5 +1,23 @@
 {% extends 'base.html' %}
 
 {% block content %}
-<h1>2</h1>
+<h1 class="upload_title">Upload Your Document</h1>
+
+<p class="upload_text">Manage, store, and instantly gain key insights from your files</p>
+
+<div class="upload_content">
+
+    <h4 class="upload_content_title">Choose the file from your device</h4>
+    <form action="" method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        <p class="add_file">
+            <label for="file_upload" class="custom_file_upload" id="file_label">+</label>
+            <input type="file" name="file_upload" id="file_upload">
+        </p>
+        <span id="file_name"></span>
+        <p class="upload_content_text">Drag and Drop Supported</p>
+        <button type="submit" class="button">Upload</button>
+    </form>
+</div>
+
 {% endblock %}

@@ -117,6 +117,85 @@ h3.active {
     background-color: #E3AFA6;
 }
 
-h1{
+.upload_title{
+    margin: 0px;
+    padding-top: 115px;
+    font-size: 40px;
+}
+
+.upload_text{
+    margin: 0px;
+    padding-top: 65px;
+    font-size: 16px;
+}
+
+.upload_content{
+    margin: 80px auto;
+    width: 600px;
+    height: 370px;
+    border-radius: 50px;
+    background-color: #FFFFFF;
+}
+
+.upload_content_title{
+    padding-top: 50px;
+    font-size: 26px;
+    font-weight: normal;
+}
+
+.add_file{
+    padding: 10px 0px;
+}
+
+.add_file:before{
+    margin: 0 auto 10px;
+    content: '';
+    width: 460px;
+    height: 1px;
+    background-color: #000000;
+    display: block;
+}
+
+.add_file:after{
+    margin: 10px auto 0;
+    content: '';
+    width: 460px;
+    height: 1px;
+    background-color: #000000;
+    display: block;
+}
+
+.upload_content_text{
+    font-size: 12px;
+    padding-bottom: 20px;
+}
+
+input[type="file"]{
+    display: none;
+}
+
+.custom_file_upload{
     margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    font-size: 40px;
+    font-weight: bold;
+    color: gray;
+    cursor: pointer;
+    text-align: center;
+    user-select: none;
+    transition: background 1.0s;
+}
+
+.custom_file_upload:hover{
+    color: black;
+}
+
+.custom_file_upload.file-selected {
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
 }
